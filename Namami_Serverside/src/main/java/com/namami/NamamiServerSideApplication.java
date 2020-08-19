@@ -6,10 +6,10 @@ import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
 @PropertySource(value={"classpath:messages.properties"})
-public class BeautyBattleServerSideApplication {
+public class NamamiServerSideApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BeautyBattleServerSideApplication.class, args);
+		SpringApplication.run(NamamiServerSideApplication.class, args);
 	}
 
 }

@@ -10,10 +10,10 @@
 	</parent>
 	
   <groupId>com.battle</groupId>
-  <artifactId>beautybattle</artifactId>
+  <artifactId>namami</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>beautybattle</name>
-  <description>This is the server side application for beauty battle</description>
+  <name>namami</name>
+  <description>This is the server side application for Namami App</description>
 
 
   <properties>
@@ -82,12 +82,12 @@
 				<version>0.7.5.201505241946</version>
 				<configuration>
 					<excludes>
-						<exclude>com/battle/config/**</exclude>
-						<exclude>com/battle/api/**</exclude>
-						<exclude>com/battle/utility/**</exclude>
-						<exclude>com/battle/model/**</exclude>
-						<exclude>com/battle/entity/**</exclude>
-						<exclude>com/battle/BeautyBattleServerSideApplication*</exclude>
+						<exclude>com/namami/config/**</exclude>
+						<exclude>com/namami/api/**</exclude>
+						<exclude>com/namami/utility/**</exclude>
+						<exclude>com/namami/model/**</exclude>
+						<exclude>com/namami/entity/**</exclude>
+						<exclude>com/namami/NamamiServerSideApplication*</exclude>
 					</excludes>
 					<classFolders>
 						<classFolder>${basedir}/target/classes</classFolder>
